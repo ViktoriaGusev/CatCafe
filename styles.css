@@ -100,11 +100,12 @@ input[type=submit] {
 
 
 
-.gallery {
+ .gallery {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin: -10px;
+  gap: 10px;
+}
+
 }
 
 .gallery-item {
