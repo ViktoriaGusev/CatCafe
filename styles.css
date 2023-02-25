@@ -108,10 +108,12 @@ input[type=submit] {
 
 }
 
-.gallery-item {
-  width: calc(33.33% - 10px);
-  margin: 10px;
+@media (max-width: 768px) {
+  .gallery-item {
+    width: calc(50% - 10px);
+  }
 }
+
 
 .gallery-item img {
   max-width: 400px;
@@ -119,4 +121,5 @@ input[type=submit] {
   height: auto;
   display: block;
 }
+
 
