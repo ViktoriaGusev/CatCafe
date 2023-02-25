@@ -102,18 +102,15 @@ input[type=submit] {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  margin: -5px;
 }
 
 .gallery-item {
   flex-basis: calc(33.33% - 10px);
   width: calc(33.33% - 10px);
-  margin: 10px;
+  margin: 5px;
+  box-sizing: border-box;
 }
-
-
-
-
 
 .gallery-item img {
   max-width: 400px;
