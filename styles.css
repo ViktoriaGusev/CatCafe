@@ -96,3 +96,22 @@ input[type=submit] {
     margin-top: 0;
   }
 }
+
+
+
+
+
+.wrapper {
+	width: 40%;
+	margin: 40px auto;
+}
+
+div.gallery {
+	margin-top: 30px;
+}
+
+div.gallery ul {
+	list-style-type: none;
+	margin-left: 35px;
+}
+
