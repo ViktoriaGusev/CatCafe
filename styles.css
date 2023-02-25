@@ -108,7 +108,7 @@ input[type=submit] {
 }
 
 .gallery-item {
-  width: calc(33.33% - 20px);
+  width: calc(33.33% - 10px);
   margin: 10px;
 }
 
