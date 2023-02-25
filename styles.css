@@ -128,10 +128,11 @@ div.gallery ul li {
     float: left;
     width: 33.33%;
     height: 130px;
-    margin: 5px;
+    margin: 0 5px 10px 0;
     padding: 5px;
     z-index: 0;
 }
+
 
 
 div.gallery ul li:hover {
