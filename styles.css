@@ -106,8 +106,8 @@ input[type=submit] {
 }
 
 .gallery-item {
-  flex-basis: calc(33.33% - 10px);
-  width: calc(33.33% - 10px);
+  flex-basis: calc((100% / 3) - 10px);
+  width: calc((100% / 3) - 10px);
   margin: 5px;
   box-sizing: border-box;
 }
@@ -121,8 +121,8 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   .gallery-item {
-    flex-basis: calc(50% - 10px);
-    width: calc(50% - 10px);
+    flex-basis: calc((100% / 2) - 10px);
+    width: calc((100% / 2) - 10px);
   }
 }
 
@@ -132,5 +132,3 @@ input[type=submit] {
     width: 100%;
   }
 }
-
-
