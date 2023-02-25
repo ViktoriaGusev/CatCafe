@@ -99,8 +99,7 @@ input[type=submit] {
 
 
 
-
- .gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -114,11 +113,27 @@ input[type=submit] {
 
 
 
+
+
 .gallery-item img {
   max-width: 400px;
   width: 100%;
   height: auto;
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-item {
+    flex-basis: calc(50% - 10px);
+    width: calc(50% - 10px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item {
+    flex-basis: 100%;
+    width: 100%;
+  }
 }
 
 
