@@ -146,14 +146,14 @@ div.gallery ul li img {
 	top: 0;
 	border: 1px solid #dddddd;
 	padding: 5px;
-	width: 130px;
-	height: 130px;
+	width: 400px;
+	height: 400px;
 	background: #f0f0f0;
 }
 
 div.gallery ul li img:hover {
-	width: 200px;
-	height: 200px;
+	width: 600px;
+	height: 600px;
 	margin-top: -130px;
 	margin-left: -130px;
 	top: 65%;
@@ -166,9 +166,9 @@ div.gallery ul li img:hover {
 	}
 }
 
-@media only screen and (max-width: 498px) {
+@media only screen and (max-width: 1000px) {
 	.wrapper {
-		width: 300px;
+		width: 600px;
 	}
 
 	div.gallery ul {
