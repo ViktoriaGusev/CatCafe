@@ -36,7 +36,7 @@ h3 {
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
-  width: 100%;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -78,7 +78,7 @@ input[type=submit] {
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
-  width: 75%;
+  width: 40%;
   margin-top: 6px;
 }
 
