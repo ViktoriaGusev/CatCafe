@@ -141,7 +141,7 @@ input[type=submit] {
 
 
 
-		.menu {
+	.menu {
 			display: grid;
 			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 			grid-gap: 20px;
@@ -150,7 +150,7 @@ input[type=submit] {
 		}
 
 		.menu-item {
-			background-color: #fff;
+	  		background-color: #fff;
   			border: 1px solid #ddd;
   			padding: 20px;
   			text-align: center;
@@ -158,8 +158,8 @@ input[type=submit] {
   			display: flex;
   			flex-direction: column;
   			justify-content: space-between;
-		}
-		}
+}
+
 
 		.menu-item h4 {
 			font-size: 18px;
@@ -169,5 +169,5 @@ input[type=submit] {
 		.menu-item p {
 			font-size: 16px;
 			margin: 0;
-			color: #FFFFFF;
+			color: #ffff;
 		}
