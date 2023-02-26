@@ -150,13 +150,15 @@ input[type=submit] {
 		}
 
 		.menu-item {
-			border: 1px solid #ccc;
-			padding: 20px;
-			text-align: center;
-			height: 200px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
+			background-color: #fff;
+  			border: 1px solid #ddd;
+  			padding: 20px;
+  			text-align: center;
+  			height: 200px;
+  			display: flex;
+  			flex-direction: column;
+  			justify-content: space-between;
+		}
 		}
 
 		.menu-item h4 {
