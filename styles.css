@@ -132,3 +132,35 @@ input[type=submit] {
     width: 100%;
   }
 }
+
+
+
+
+		.menu {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			grid-gap: 20px;
+			margin: 0 auto;
+			max-width: 1200px;
+		}
+
+		.menu-item {
+			border: 1px solid #ccc;
+			padding: 20px;
+			text-align: center;
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.menu-item h4 {
+			font-size: 18px;
+			margin: 0;
+		}
+
+		.menu-item p {
+			font-size: 16px;
+			margin: 0;
+			color: #a05a2c;
+		}
