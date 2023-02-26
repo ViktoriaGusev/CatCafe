@@ -32,6 +32,11 @@ h3 {
 	
 }
 
+h4 {
+	color:#ff7097; 
+	font-size:25px; 
+	font-family:Helvetica;
+}
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
