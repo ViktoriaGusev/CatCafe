@@ -172,3 +172,9 @@ input[type=submit] {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .menu {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+}
